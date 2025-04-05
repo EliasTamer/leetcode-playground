@@ -1,3 +1,6 @@
-import { addBinary } from "./addBinary";
+import { climbStairs } from "./climbStairs";
 
-addBinary("110", "11");
+
+const res = climbStairs(2);
+
+console.log(res);
